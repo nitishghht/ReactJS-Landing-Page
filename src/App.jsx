@@ -6,6 +6,7 @@ import HeroBanner from './Components/HeroBanner'
 import Navbar from './Components/Navbar'
 import Dishes from './Components/Dishes'
 import About from './Components/About'
+import Mission from './Components/Mission'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
     <Navbar />
     <Dishes />
     <About />
+    <Mission/>
     </main>
   )
 }
