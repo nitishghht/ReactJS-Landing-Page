@@ -13,7 +13,7 @@ import italian from "../assets/italian.jpeg";
 import japanese from "../assets/japanese.jpeg";
 import indian from "../assets/indian.jpeg";
 
-import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
+import { FaXTwitter, FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa6";
 
 export const LINKS = [
   { text: "Dishes", targetId: "Dishes" },
@@ -126,16 +126,24 @@ export const CONTACT = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
+    href: "https://www.facebook.com/profile.php?id=100024347706204",
+    icon: <FaFacebook fontSize={30} className="hover:opacity-80 text-white" />,
   },
 
   {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
+    href: "https://www.instagram.com/_._nit_/",
+    icon: <FaInstagram fontSize={30} className="hover:opacity-80 text-white" />,
   },
   {
     href: "https://x.com/",
-    icon: <FaXTwitter fontSize={30} className="hover:opacity-80" />,
+    icon: <FaXTwitter fontSize={30} className="hover:opacity-80 text-white" />,
+  },
+  {
+    href: "https://www.linkedin.com/in/nitish-rajbhar-3b6292220/",
+    icon: <FaLinkedin fontSize={30} className="hover:opacity-80 text-white" />,
+  },
+  {
+    href: "https://github.com/nitishghht",
+    icon: <FaGithub fontSize={30} className="hover:opacity-80 text-white" />,
   },
 ];
